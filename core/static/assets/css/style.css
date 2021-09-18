@@ -2065,12 +2065,12 @@ p.text-muted {
   position: fixed;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-box-shadow: 1px 0 20px 0 #3f4d67;
+  -webkit-box-shadow: 1px 0 20px 0 rgba(239, 109, 109, 1);
           box-shadow: 1px 0 20px 0 #3f4d67;
   width: 264px;
   height: 100vh;
   top: 0;
-  background: #A9343F;
+  background: #f7f0f0;
   color: #a9b7d0;
 }
 .pcoded-navbar ul {

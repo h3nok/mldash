@@ -192,6 +192,7 @@ p.text-muted {
   margin-bottom: 30px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  background-color: #f4f7fa;
 }
 .card .card-header {
   background-color: transparent;
@@ -270,6 +271,7 @@ p.text-muted {
 .card .card-block,
 .card .card-body {
   padding: 30px 25px;
+  background-color: maroon;
 }
 .card.card-load {
   position: relative;
@@ -1516,7 +1518,7 @@ p.text-muted {
           align-items: center;
 }
 .b-brand .b-bg {
-  background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
+  background: linear-gradient(-135deg, #124A72 0%, #124A72 100%);
   border-radius: 10px;
   width: 35px;
   height: 35px;
@@ -2068,7 +2070,7 @@ p.text-muted {
   width: 264px;
   height: 100vh;
   top: 0;
-  background: #3f4d67;
+  background: #A9343F;
   color: #a9b7d0;
 }
 .pcoded-navbar ul {
@@ -7081,7 +7083,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 .checkbox.checkbox-fill input[type=checkbox]:checked + .cr:before {
   opacity: 1;
   background: transparent;
-  color: #1dd5d2;
+  color: orangered;
   border-color: transparent;
 }
 .checkbox.checkbox-primary input[type=checkbox]:checked + .cr:before {
@@ -7454,11 +7456,11 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
   }
 }
 .auth-wrapper .auth-icon {
-  font-size: 30px;
+  font-size: 35px;
 }
 .auth-wrapper .auth-icon:before {
-  background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
-  background-clip: text;
+  background: linear-gradient(-135deg, #A9343F 0%, #124A72 100%);
+  /*background-clip: text;*/
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7478,12 +7480,12 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 .auth-wrapper .auth-bg .r:first-child {
   top: -100px;
   right: -100px;
-  background: linear-gradient(-135deg, #1de9b6 0%, #1dc4e9 100%);
+  background: linear-gradient(-135deg, #A9343F 0%, #86415F 100%);
 }
 .auth-wrapper .auth-bg .r:last-child {
   left: -100px;
   bottom: -100px;
-  background: linear-gradient(-135deg, #899FD4 0%, #A389D4 100%);
+  background: linear-gradient(-135deg, #704465 0%, #45476F 100%);
 }
 .auth-wrapper .auth-bg .r.s {
   width: 20px;
@@ -7492,12 +7494,12 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 .auth-wrapper .auth-bg .r.s:nth-child(2) {
   top: 150px;
   right: -150px;
-  background: #04a9f5;
+  background: #86415F;
 }
 .auth-wrapper .auth-bg .r.s:nth-child(3) {
   left: -150px;
   bottom: 150px;
-  background: #1de9b6;
+  background: #5C476C;
 }
 .auth-wrapper .auth-bg .r:nth-child(odd) {
   -webkit-animation: floating 7s infinite;
@@ -7732,13 +7734,13 @@ a.btn-theme.active {
 /* Alternate buttons */
 .btn-primary {
   color: #fff;
-  background-color: #04a9f5;
-  border-color: #04a9f5;
+  background-color: orangered;
+  border-color: orangered;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #038fcf;
-  border-color: #0386c3;
+  background-color: #A9343F;
+  border-color: #A9343F;
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -8792,8 +8794,8 @@ a.btn-theme.active {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(200, 7, 15, 1);
+          box-shadow: 0 10px 20px 0 rgba(200, 7, 15, 1);
   padding: 7px;
   border-radius: 20px 0 10px 20px;
   width: calc(100% - 40px);
@@ -8847,7 +8849,7 @@ a.btn-theme.active {
   z-index: 1001;
   font-size: 35px;
   line-height: 0;
-  color: #fff;
+  color: orangered;
   position: absolute;
   top: 18px;
   right: -23px;

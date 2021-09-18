@@ -62,7 +62,7 @@ body {
   font-size: 14px;
   color: #888;
   font-weight: 400;
-  background: #f4f7fa;
+  background: rgb(255, 255, 255);
   position: relative;
 }
 
@@ -187,12 +187,12 @@ p.text-muted {
 .card {
   border-radius: 0;
   -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
-          box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+          box-shadow: 0 1px 20px 0 #124A72;
   border: none;
   margin-bottom: 30px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  background-color: #f4f7fa;
+  background-color: #ffffff;
 }
 .card .card-header {
   background-color: transparent;
@@ -271,7 +271,7 @@ p.text-muted {
 .card .card-block,
 .card .card-body {
   padding: 30px 25px;
-  background-color: maroon;
+  background-color: #ffffff;
 }
 .card.card-load {
   position: relative;
